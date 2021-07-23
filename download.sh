@@ -9,7 +9,7 @@ username=$(urle $username)
 password=$(urle $password)
 wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.001' -O 'CAPE_dataset.zip.001'
 wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.002' -O 'CAPE_dataset.zip.002'
-wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.002' -O 'CAPE_dataset.zip.003'
-wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.002' -O 'CAPE_dataset.zip.004'
-wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.002' -O 'CAPE_dataset.zip.005'
-wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.002' -O 'CAPE_dataset.zip.006'
+wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.003' -O 'CAPE_dataset.zip.003'
+wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.004' -O 'CAPE_dataset.zip.004'
+wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.005' -O 'CAPE_dataset.zip.005'
+wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.006' -O 'CAPE_dataset.zip.006'
