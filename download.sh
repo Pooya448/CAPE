@@ -13,3 +13,5 @@ wget --post-data "username=$username&password=$password" 'https://download.is.tu
 wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.004' -O 'CAPE_dataset.zip.004'
 wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.005' -O 'CAPE_dataset.zip.005'
 wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.006' -O 'CAPE_dataset.zip.006'
+
+7z x CAPE_dataset.zip.001
