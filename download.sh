@@ -15,6 +15,7 @@ wget --post-data "username=$username&password=$password" 'https://download.is.tu
 wget --post-data "username=$username&password=$password" 'https://download.is.tue.mpg.de/download.php?domain=cape&sfile=CAPE_dataset.zip.006' -O 'CAPE_dataset.zip.006'
 
 7z x CAPE_dataset.zip.001
+rm -rf *.zip*
 
 cd cape_release/
 git clone https://github.com/qianlim/cape_utils.git
