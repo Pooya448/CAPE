@@ -18,4 +18,4 @@ wget --post-data "username=$username&password=$password" 'https://download.is.tu
 rm -rf *.zip*
 
 cd cape_release/
-git clone https://github.com/qianlim/cape_utils.git
+git clone https://github.com/Pooya448/cape_utils.git
